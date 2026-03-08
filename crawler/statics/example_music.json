@@ -1,0 +1,3614 @@
+{
+  "2025": {
+    "202552": [
+      {
+        "rank": 1,
+        "uniTrackId": 452982273,
+        "songId": "628126507",
+        "platformSongId": null,
+        "qyTrackId": "628126507",
+        "weeks": 2,
+        "highestRank": 1,
+        "newFlag": false,
+        "lastWeekRank": 4,
+        "uniIndex": "97.04",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M0000018VgLy3eWHmK_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000018VgLy3eWHmK_1.jpg",
+        "songName": "\u7b49\u5149\u6765",
+        "trackNameShow": "\u7b49\u5149\u6765",
+        "publishTime": null,
+        "qyTrackMid": "001xgLYf1gcdX3",
+        "uniSingerId": null,
+        "singerId": "199509",
+        "singerName": "\u5468\u6df1",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "97.04038",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 2,
+        "historyHighestRank": 1,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "76.01",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "75.16",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "90.57",
+            "isChampion": true,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "uniTrackId": 454266320,
+        "songId": "629410552",
+        "platformSongId": null,
+        "qyTrackId": "629410552",
+        "weeks": 1,
+        "highestRank": 2,
+        "newFlag": true,
+        "lastWeekRank": 0,
+        "uniIndex": "96.76",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000003GtseQ0eh7Ss_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003GtseQ0eh7Ss_1.jpg",
+        "songName": "PROOF",
+        "trackNameShow": "PROOF",
+        "publishTime": null,
+        "qyTrackMid": "0009iyEQ0vjAlw",
+        "uniSingerId": null,
+        "singerId": "942991",
+        "singerName": "\u6a80\u5065\u6b21",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.76419",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 1,
+        "historyHighestRank": 2,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "82.91",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "82.88",
+            "isChampion": true,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "85.76",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "uniTrackId": 452195789,
+        "songId": "627340023",
+        "platformSongId": null,
+        "qyTrackId": "627340023",
+        "weeks": 3,
+        "highestRank": 1,
+        "newFlag": false,
+        "lastWeekRank": 1,
+        "uniIndex": "96.72",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000001bXK7t4Q576w_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000001bXK7t4Q576w_1.jpg",
+        "songName": "\u4e0d\u6e1d",
+        "trackNameShow": "\u4e0d\u6e1d",
+        "publishTime": null,
+        "qyTrackMid": "000TyQAA0jYDlU",
+        "uniSingerId": null,
+        "singerId": "5907054",
+        "singerName": "\u6893\u6e1d",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.71538",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 3,
+        "historyHighestRank": 1,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "77.08",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "75.21",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "88.40",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "uniTrackId": 449104667,
+        "songId": "624249114",
+        "platformSongId": null,
+        "qyTrackId": "624249114",
+        "weeks": 4,
+        "highestRank": 3,
+        "newFlag": false,
+        "lastWeekRank": 3,
+        "uniIndex": "96.30",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000002eO20g3Hw3ZT_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000002eO20g3Hw3ZT_1.jpg",
+        "songName": "\u7ed9\u660e\u5929\u7684",
+        "trackNameShow": "\u7ed9\u660e\u5929\u7684",
+        "publishTime": null,
+        "qyTrackMid": "0023aeMq4CYyaP",
+        "uniSingerId": null,
+        "singerId": "2241311",
+        "singerName": "\u5218\u5b87\u5b81",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.30042",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 4,
+        "historyHighestRank": 3,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "71.48",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "35.71",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "86.18",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "uniTrackId": 455193614,
+        "songId": "630337846",
+        "platformSongId": null,
+        "qyTrackId": "630337846",
+        "weeks": 1,
+        "highestRank": 5,
+        "newFlag": true,
+        "lastWeekRank": 0,
+        "uniIndex": "96.23",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000003TznVk4RqfZh_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003TznVk4RqfZh_1.jpg",
+        "songName": "DEAD REFLEX",
+        "trackNameShow": "DEAD REFLEX",
+        "publishTime": null,
+        "qyTrackMid": "000EHN3u4XoUQg",
+        "uniSingerId": null,
+        "singerId": "942991",
+        "singerName": "\u6a80\u5065\u6b21",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.23120",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 1,
+        "historyHighestRank": 5,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "79.20",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "79.58",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "81.00",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "uniTrackId": 433344930,
+        "songId": "608490475",
+        "platformSongId": null,
+        "qyTrackId": "608490475",
+        "weeks": 13,
+        "highestRank": 4,
+        "newFlag": false,
+        "lastWeekRank": 6,
+        "uniIndex": "95.89",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000004BZLqH28pIp6_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000004BZLqH28pIp6_1.jpg",
+        "songName": "\u547d\u8fd0\u7684\u8d5b\u52d2\u514b",
+        "trackNameShow": "\u547d\u8fd0\u7684\u8d5b\u52d2\u514b",
+        "publishTime": null,
+        "qyTrackMid": "000VkBRo2MCrkr",
+        "uniSingerId": null,
+        "singerId": "244",
+        "singerName": "\u5200\u90ce",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.88614",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 13,
+        "historyHighestRank": 4,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "58.44",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "41.86",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "83.01",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "uniTrackId": 441793907,
+        "songId": "616939390",
+        "platformSongId": null,
+        "qyTrackId": "616939390",
+        "weeks": 8,
+        "highestRank": 1,
+        "newFlag": false,
+        "lastWeekRank": 8,
+        "uniIndex": "95.37",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000002AQgk30GtqkK_2.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000002AQgk30GtqkK_2.jpg",
+        "songName": "What a Day",
+        "trackNameShow": "What a Day",
+        "publishTime": null,
+        "qyTrackMid": "0030OdRs35HUaA",
+        "uniSingerId": null,
+        "singerId": "1016794",
+        "singerName": "\u8521\u5f90\u5764",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.37460",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 8,
+        "historyHighestRank": 1,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "70.15",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "78.64",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "71.71",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "uniTrackId": 454902451,
+        "songId": "630046683",
+        "platformSongId": null,
+        "qyTrackId": "630046683",
+        "weeks": 1,
+        "highestRank": 8,
+        "newFlag": true,
+        "lastWeekRank": 0,
+        "uniIndex": "95.03",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000000SKNUy4YiS9l_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000000SKNUy4YiS9l_1.jpg",
+        "songName": "\u6d88\u5931\u7684\u8bb0\u5fc6",
+        "trackNameShow": "\u6d88\u5931\u7684\u8bb0\u5fc6",
+        "publishTime": null,
+        "qyTrackMid": "003touqv4JWDMo",
+        "uniSingerId": null,
+        "singerId": "2241311",
+        "singerName": "\u5218\u5b87\u5b81",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.03264",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 1,
+        "historyHighestRank": 8,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "71.09",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "41.83",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "78.97",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "uniTrackId": 384918170,
+        "songId": "560063927",
+        "platformSongId": null,
+        "qyTrackId": "560063927",
+        "weeks": 37,
+        "highestRank": 3,
+        "newFlag": false,
+        "lastWeekRank": 10,
+        "uniIndex": "95.01",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000000KrDC019mc82_3.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000000KrDC019mc82_3.jpg",
+        "songName": "\u7b2c57\u6b21\u53d6\u6d88\u53d1\u9001",
+        "trackNameShow": "\u7b2c57\u6b21\u53d6\u6d88\u53d1\u9001",
+        "publishTime": null,
+        "qyTrackMid": "001P6YOB0eXLlj",
+        "uniSingerId": null,
+        "singerId": "8873779",
+        "singerName": "\u83f2\u83f2\u516c\u4e3b\uff08\u9646\u7eee\u83f2\uff09",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.01281",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 37,
+        "historyHighestRank": 3,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "89.42",
+            "isChampion": true,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "47.71",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "48.06",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "uniTrackId": 447308818,
+        "songId": "622453461",
+        "platformSongId": null,
+        "qyTrackId": "622453461",
+        "weeks": 4,
+        "highestRank": 5,
+        "newFlag": false,
+        "lastWeekRank": 9,
+        "uniIndex": "94.70",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M0000028jKt80PGmlB_4.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000028jKt80PGmlB_4.jpg",
+        "songName": "\u8857\u89d2\u7684\u665a\u98ce",
+        "trackNameShow": "\u8857\u89d2\u7684\u665a\u98ce",
+        "publishTime": null,
+        "qyTrackMid": "001e2FJz3QXaf0",
+        "uniSingerId": null,
+        "singerId": "4284",
+        "singerName": "\u9648\u5c0f\u6625",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "94.70448",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 4,
+        "historyHighestRank": 5,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "87.40",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "65.08",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "50.31",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      }
+    ],
+    "202551": [
+      {
+        "rank": 1,
+        "uniTrackId": 452195789,
+        "songId": "627340023",
+        "platformSongId": null,
+        "qyTrackId": "627340023",
+        "weeks": 2,
+        "highestRank": 1,
+        "newFlag": false,
+        "lastWeekRank": 6,
+        "uniIndex": "97.57",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000001bXK7t4Q576w_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000001bXK7t4Q576w_1.jpg",
+        "songName": "\u4e0d\u6e1d",
+        "trackNameShow": "\u4e0d\u6e1d",
+        "publishTime": null,
+        "qyTrackMid": "000TyQAA0jYDlU",
+        "uniSingerId": null,
+        "singerId": "5907054",
+        "singerName": "\u6893\u6e1d",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "97.56679",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 2,
+        "historyHighestRank": 1,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "82.40",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "73.71",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "92.86",
+            "isChampion": true,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "uniTrackId": 441811805,
+        "songId": "616957288",
+        "platformSongId": null,
+        "qyTrackId": "616957288",
+        "weeks": 2,
+        "highestRank": 2,
+        "newFlag": false,
+        "lastWeekRank": 2,
+        "uniIndex": "96.56",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000000nqlAU2qE1mK_2.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000000nqlAU2qE1mK_2.jpg",
+        "songName": "\u5143\u6765\u662f\u8fd9\u6837\uff5e",
+        "trackNameShow": "\u5143\u6765\u662f\u8fd9\u6837\uff5e",
+        "publishTime": null,
+        "qyTrackMid": "0031nN9E23PD9B",
+        "uniSingerId": null,
+        "singerId": "199509",
+        "singerName": "\u5468\u6df1",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.55739",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 2,
+        "historyHighestRank": 2,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "77.17",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "62.30",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "87.65",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "uniTrackId": 449104667,
+        "songId": "624249114",
+        "platformSongId": null,
+        "qyTrackId": "624249114",
+        "weeks": 3,
+        "highestRank": 3,
+        "newFlag": false,
+        "lastWeekRank": 3,
+        "uniIndex": "96.53",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000002eO20g3Hw3ZT_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000002eO20g3Hw3ZT_1.jpg",
+        "songName": "\u7ed9\u660e\u5929\u7684",
+        "trackNameShow": "\u7ed9\u660e\u5929\u7684",
+        "publishTime": null,
+        "qyTrackMid": "0023aeMq4CYyaP",
+        "uniSingerId": null,
+        "singerId": "2241311",
+        "singerName": "\u5218\u5b87\u5b81",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.53085",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 3,
+        "historyHighestRank": 3,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "73.30",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "39.13",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "87.83",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "uniTrackId": 452982273,
+        "songId": "628126507",
+        "platformSongId": null,
+        "qyTrackId": "628126507",
+        "weeks": 1,
+        "highestRank": 4,
+        "newFlag": true,
+        "lastWeekRank": 0,
+        "uniIndex": "96.47",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M0000018VgLy3eWHmK_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000018VgLy3eWHmK_1.jpg",
+        "songName": "\u7b49\u5149\u6765",
+        "trackNameShow": "\u7b49\u5149\u6765",
+        "publishTime": null,
+        "qyTrackMid": "001xgLYf1gcdX3",
+        "uniSingerId": null,
+        "singerId": "199509",
+        "singerName": "\u5468\u6df1",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.46644",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 1,
+        "historyHighestRank": 4,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "77.21",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "73.99",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "86.02",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "uniTrackId": 452182157,
+        "songId": "627326391",
+        "platformSongId": null,
+        "qyTrackId": "627326391",
+        "weeks": 1,
+        "highestRank": 5,
+        "newFlag": true,
+        "lastWeekRank": 0,
+        "uniIndex": "96.42",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000002LkYs400RJuJ_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000002LkYs400RJuJ_1.jpg",
+        "songName": "\u51ac\u65e5\u6765\u4fe1 (Winter Love Letter)",
+        "trackNameShow": "\u51ac\u65e5\u6765\u4fe1 (Winter Love Letter)",
+        "publishTime": null,
+        "qyTrackMid": "001h3apm2V6QBW",
+        "uniSingerId": null,
+        "singerId": "4553007",
+        "singerName": "\u65f6\u4ee3\u5c11\u5e74\u56e2",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.41539",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 1,
+        "historyHighestRank": 5,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "80.52",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "77.19",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "84.53",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "uniTrackId": 433344930,
+        "songId": "608490475",
+        "platformSongId": null,
+        "qyTrackId": "608490475",
+        "weeks": 12,
+        "highestRank": 4,
+        "newFlag": false,
+        "lastWeekRank": 4,
+        "uniIndex": "96.21",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000004BZLqH28pIp6_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000004BZLqH28pIp6_1.jpg",
+        "songName": "\u547d\u8fd0\u7684\u8d5b\u52d2\u514b",
+        "trackNameShow": "\u547d\u8fd0\u7684\u8d5b\u52d2\u514b",
+        "publishTime": null,
+        "qyTrackMid": "000VkBRo2MCrkr",
+        "uniSingerId": null,
+        "singerId": "244",
+        "singerName": "\u5200\u90ce",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.21313",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 12,
+        "historyHighestRank": 4,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "60.45",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "56.81",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "85.55",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "uniTrackId": 454145025,
+        "songId": "629289257",
+        "platformSongId": null,
+        "qyTrackId": "629289257",
+        "weeks": 1,
+        "highestRank": 7,
+        "newFlag": true,
+        "lastWeekRank": 0,
+        "uniIndex": "95.82",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000000Y5sC91wnMPj_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000000Y5sC91wnMPj_1.jpg",
+        "songName": "Fool Me Right",
+        "trackNameShow": "Fool Me Right",
+        "publishTime": null,
+        "qyTrackMid": "000JfYPq2QS2oL",
+        "uniSingerId": null,
+        "singerId": "204664",
+        "singerName": "\u9e7f\u6657",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.82118",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 1,
+        "historyHighestRank": 7,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "73.57",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "80.52",
+            "isChampion": true,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "72.85",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "uniTrackId": 441793907,
+        "songId": "616939390",
+        "platformSongId": null,
+        "qyTrackId": "616939390",
+        "weeks": 7,
+        "highestRank": 1,
+        "newFlag": false,
+        "lastWeekRank": 9,
+        "uniIndex": "95.23",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000002AQgk30GtqkK_2.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000002AQgk30GtqkK_2.jpg",
+        "songName": "What a Day",
+        "trackNameShow": "What a Day",
+        "publishTime": null,
+        "qyTrackMid": "0030OdRs35HUaA",
+        "uniSingerId": null,
+        "singerId": "1016794",
+        "singerName": "\u8521\u5f90\u5764",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.23363",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 7,
+        "historyHighestRank": 1,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "70.70",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "77.17",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "72.37",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "uniTrackId": 447308818,
+        "songId": "622453461",
+        "platformSongId": null,
+        "qyTrackId": "622453461",
+        "weeks": 3,
+        "highestRank": 5,
+        "newFlag": false,
+        "lastWeekRank": 5,
+        "uniIndex": "95.17",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M0000028jKt80PGmlB_4.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000028jKt80PGmlB_4.jpg",
+        "songName": "\u8857\u89d2\u7684\u665a\u98ce",
+        "trackNameShow": "\u8857\u89d2\u7684\u665a\u98ce",
+        "publishTime": null,
+        "qyTrackMid": "001e2FJz3QXaf0",
+        "uniSingerId": null,
+        "singerId": "4284",
+        "singerName": "\u9648\u5c0f\u6625",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.16767",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 3,
+        "historyHighestRank": 5,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "88.66",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "67.30",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "53.20",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "uniTrackId": 384918170,
+        "songId": "560063927",
+        "platformSongId": null,
+        "qyTrackId": "560063927",
+        "weeks": 36,
+        "highestRank": 3,
+        "newFlag": false,
+        "lastWeekRank": 7,
+        "uniIndex": "94.76",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000000KrDC019mc82_3.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000000KrDC019mc82_3.jpg",
+        "songName": "\u7b2c57\u6b21\u53d6\u6d88\u53d1\u9001",
+        "trackNameShow": "\u7b2c57\u6b21\u53d6\u6d88\u53d1\u9001",
+        "publishTime": null,
+        "qyTrackMid": "001P6YOB0eXLlj",
+        "uniSingerId": null,
+        "singerId": "8873779",
+        "singerName": "\u83f2\u83f2\u516c\u4e3b\uff08\u9646\u7eee\u83f2\uff09",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "94.75617",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 36,
+        "historyHighestRank": 3,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "89.03",
+            "isChampion": true,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "0.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "45.43",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "47.43",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      }
+    ]
+  },
+  "2024": {
+    "202453": [
+      {
+        "rank": 1,
+        "uniTrackId": 293603181,
+        "songId": "468749280",
+        "platformSongId": null,
+        "qyTrackId": "468749280",
+        "weeks": 48,
+        "highestRank": 1,
+        "newFlag": false,
+        "lastWeekRank": 1,
+        "uniIndex": "97.37",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M0000002ATV00WcBgd_2.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000002ATV00WcBgd_2.jpg",
+        "songName": "\u5c0f\u7f8e\u6ee1",
+        "trackNameShow": "\u5c0f\u7f8e\u6ee1",
+        "publishTime": null,
+        "qyTrackMid": "002QvWwX1BG9mr",
+        "uniSingerId": null,
+        "singerId": "199509",
+        "singerName": "\u5468\u6df1",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "97.37119",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 48,
+        "historyHighestRank": 1,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "89.19",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "70.35",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "76.09",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "83.94",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "92.04",
+            "isChampion": true,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "uniTrackId": 378160702,
+        "songId": "553306466",
+        "platformSongId": null,
+        "qyTrackId": "553306466",
+        "weeks": 1,
+        "highestRank": 2,
+        "newFlag": true,
+        "lastWeekRank": 0,
+        "uniIndex": "96.95",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000001V8PDy1om05K_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000001V8PDy1om05K_1.jpg",
+        "songName": "\u4efb\u6027",
+        "trackNameShow": "\u4efb\u6027",
+        "publishTime": null,
+        "qyTrackMid": "002qWGn83xoNzs",
+        "uniSingerId": null,
+        "singerId": "74",
+        "singerName": "\u4e94\u6708\u5929",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.94630",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 1,
+        "historyHighestRank": 2,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "85.45",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "81.79",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "76.26",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "85.40",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "82.25",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "uniTrackId": 363547820,
+        "songId": "538693575",
+        "platformSongId": null,
+        "qyTrackId": "538693575",
+        "weeks": 7,
+        "highestRank": 2,
+        "newFlag": false,
+        "lastWeekRank": 3,
+        "uniIndex": "96.94",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000003IEwJi0qW93S_3.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003IEwJi0qW93S_3.jpg",
+        "songName": "\u5148\u8bf4\u7231\u7684\u4eba\u4e3a\u4ec0\u4e48\u5148\u79bb\u5f00",
+        "trackNameShow": "\u5148\u8bf4\u7231\u7684\u4eba\u4e3a\u4ec0\u4e48\u5148\u79bb\u5f00",
+        "publishTime": null,
+        "qyTrackMid": "000A8s5Q0d9sVZ",
+        "uniSingerId": null,
+        "singerId": "16040112",
+        "singerName": "\u7530\u56ed",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.94061",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 7,
+        "historyHighestRank": 2,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "93.79",
+            "isChampion": true,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "66.64",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "86.65",
+            "isChampion": true,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "86.01",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "71.16",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "uniTrackId": 371226409,
+        "songId": "546372157",
+        "platformSongId": null,
+        "qyTrackId": "546372157",
+        "weeks": 5,
+        "highestRank": 4,
+        "newFlag": false,
+        "lastWeekRank": 10,
+        "uniIndex": "96.76",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M0000015SOuT1dUC6X_3.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000015SOuT1dUC6X_3.jpg",
+        "songName": "\u6400\u6276",
+        "trackNameShow": "\u6400\u6276",
+        "publishTime": null,
+        "qyTrackMid": "002vWbbF48AIVa",
+        "uniSingerId": null,
+        "singerId": "7139",
+        "singerName": "\u9a6c\u5065\u6d9b",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.75580",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 5,
+        "historyHighestRank": 4,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "87.39",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "79.88",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "80.05",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "85.14",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "75.01",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "uniTrackId": 377630428,
+        "songId": "552776178",
+        "platformSongId": null,
+        "qyTrackId": "552776178",
+        "weeks": 2,
+        "highestRank": 2,
+        "newFlag": false,
+        "lastWeekRank": 2,
+        "uniIndex": "96.39",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000001I2w1l2pJYSC_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000001I2w1l2pJYSC_1.jpg",
+        "songName": "\u5927\u6982",
+        "trackNameShow": "\u5927\u6982",
+        "publishTime": null,
+        "qyTrackMid": "003LPFhF0VYoFC",
+        "uniSingerId": null,
+        "singerId": "91580",
+        "singerName": "\u738b\u4fca\u51ef",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.38862",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 2,
+        "historyHighestRank": 2,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "84.72",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "67.14",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "70.66",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "85.95",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "88.45",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "uniTrackId": 375091872,
+        "songId": "550237618",
+        "platformSongId": null,
+        "qyTrackId": "550237618",
+        "weeks": 3,
+        "highestRank": 4,
+        "newFlag": false,
+        "lastWeekRank": 5,
+        "uniIndex": "96.33",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000003uhg0f1o1BdC_2.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003uhg0f1o1BdC_2.jpg",
+        "songName": "\u6d88\u6563\u5bf9\u767d",
+        "trackNameShow": "\u6d88\u6563\u5bf9\u767d",
+        "publishTime": null,
+        "qyTrackMid": "003laJWh2zoypQ",
+        "uniSingerId": null,
+        "singerId": "3047107",
+        "singerName": "\u4e01\u79b9\u516e",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.32580",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 3,
+        "historyHighestRank": 4,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "89.72",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "72.58",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "84.35",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "77.09",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "73.28",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "uniTrackId": 371690269,
+        "songId": "546836015",
+        "platformSongId": null,
+        "qyTrackId": "546836015",
+        "weeks": 4,
+        "highestRank": 4,
+        "newFlag": false,
+        "lastWeekRank": 4,
+        "uniIndex": "96.05",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000004SNykA0G4Pgv_2.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000004SNykA0G4Pgv_2.jpg",
+        "songName": "\u8fd9\u4e9b\u5e74\u5728\u5fd9\u4ec0\u4e48",
+        "trackNameShow": "\u8fd9\u4e9b\u5e74\u5728\u5fd9\u4ec0\u4e48",
+        "publishTime": null,
+        "qyTrackMid": "000ZZ1xW2BkwvG",
+        "uniSingerId": null,
+        "singerId": "16040112",
+        "singerName": "\u7530\u56ed",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.04772",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 4,
+        "historyHighestRank": 4,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "89.72",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "67.45",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "81.71",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "84.31",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "69.20",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "uniTrackId": 378394718,
+        "songId": "553540481",
+        "platformSongId": null,
+        "qyTrackId": "553540481",
+        "weeks": 1,
+        "highestRank": 8,
+        "newFlag": true,
+        "lastWeekRank": 0,
+        "uniIndex": "95.91",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000000hjaIw3AXnZP_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000000hjaIw3AXnZP_1.jpg",
+        "songName": "\u5f00\u5929",
+        "trackNameShow": "\u5f00\u5929",
+        "publishTime": null,
+        "qyTrackMid": "0038SRiP2lQeaS",
+        "uniSingerId": null,
+        "singerId": "60894",
+        "singerName": "\u5f20\u827a\u5174",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.90691",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 1,
+        "historyHighestRank": 8,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "81.20",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "67.94",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "69.77",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "90.44",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "85.41",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "uniTrackId": 344360978,
+        "songId": "519506736",
+        "platformSongId": null,
+        "qyTrackId": "519506736",
+        "weeks": 11,
+        "highestRank": 3,
+        "newFlag": false,
+        "lastWeekRank": 7,
+        "uniIndex": "95.85",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000002G8JY706EUr4_9.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000002G8JY706EUr4_9.jpg",
+        "songName": "\u571f\u5761\u4e0a\u7684\u72d7\u5c3e\u8349",
+        "trackNameShow": "\u571f\u5761\u4e0a\u7684\u72d7\u5c3e\u8349",
+        "publishTime": null,
+        "qyTrackMid": "002iOrb52UFgiF",
+        "uniSingerId": null,
+        "singerId": "1164028",
+        "singerName": "\u5362\u6da6\u6cfd",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.85231",
+        "sameIndex": 1,
+        "trackTags": null,
+        "onChartWeeks": 11,
+        "historyHighestRank": 3,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "92.18",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "65.60",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "83.71",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "84.77",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "61.77",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "uniTrackId": 372379013,
+        "songId": "547524759",
+        "platformSongId": null,
+        "qyTrackId": "547524759",
+        "weeks": 5,
+        "highestRank": 1,
+        "newFlag": false,
+        "lastWeekRank": 6,
+        "uniIndex": "95.85",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M0000040uK2z3RfUSv_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000040uK2z3RfUSv_1.jpg",
+        "songName": "\u4f53\u8d34",
+        "trackNameShow": "\u4f53\u8d34",
+        "publishTime": null,
+        "qyTrackMid": "001zM0qG1vOhzn",
+        "uniSingerId": null,
+        "singerId": "1113117",
+        "singerName": "\u5b8b\u4e9a\u8f69",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.84653",
+        "sameIndex": 1,
+        "trackTags": null,
+        "onChartWeeks": 5,
+        "historyHighestRank": 1,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "79.80",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "90.67",
+            "isChampion": true,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "64.72",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "75.73",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "83.93",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      }
+    ],
+    "202452": [
+      {
+        "rank": 1,
+        "uniTrackId": 293603181,
+        "songId": "468749280",
+        "platformSongId": null,
+        "qyTrackId": "468749280",
+        "weeks": 47,
+        "highestRank": 1,
+        "newFlag": false,
+        "lastWeekRank": 3,
+        "uniIndex": "97.30",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M0000002ATV00WcBgd_2.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000002ATV00WcBgd_2.jpg",
+        "songName": "\u5c0f\u7f8e\u6ee1",
+        "trackNameShow": "\u5c0f\u7f8e\u6ee1",
+        "publishTime": null,
+        "qyTrackMid": "002QvWwX1BG9mr",
+        "uniSingerId": null,
+        "singerId": "199509",
+        "singerName": "\u5468\u6df1",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "97.29960",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 47,
+        "historyHighestRank": 1,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "88.64",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "68.24",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "74.29",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "85.03",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "93.47",
+            "isChampion": true,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "uniTrackId": 377630428,
+        "songId": "552776178",
+        "platformSongId": null,
+        "qyTrackId": "552776178",
+        "weeks": 1,
+        "highestRank": 2,
+        "newFlag": true,
+        "lastWeekRank": 0,
+        "uniIndex": "97.28",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000001I2w1l2pJYSC_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000001I2w1l2pJYSC_1.jpg",
+        "songName": "\u5927\u6982",
+        "trackNameShow": "\u5927\u6982",
+        "publishTime": null,
+        "qyTrackMid": "003LPFhF0VYoFC",
+        "uniSingerId": null,
+        "singerId": "91580",
+        "singerName": "\u738b\u4fca\u51ef",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "97.28030",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 1,
+        "historyHighestRank": 2,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "85.41",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "68.71",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "80.77",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "91.36",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "91.25",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "uniTrackId": 363547820,
+        "songId": "538693575",
+        "platformSongId": null,
+        "qyTrackId": "538693575",
+        "weeks": 6,
+        "highestRank": 2,
+        "newFlag": false,
+        "lastWeekRank": 2,
+        "uniIndex": "97.08",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000003IEwJi0qW93S_3.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003IEwJi0qW93S_3.jpg",
+        "songName": "\u5148\u8bf4\u7231\u7684\u4eba\u4e3a\u4ec0\u4e48\u5148\u79bb\u5f00",
+        "trackNameShow": "\u5148\u8bf4\u7231\u7684\u4eba\u4e3a\u4ec0\u4e48\u5148\u79bb\u5f00",
+        "publishTime": null,
+        "qyTrackMid": "000A8s5Q0d9sVZ",
+        "uniSingerId": null,
+        "singerId": "16040112",
+        "singerName": "\u7530\u56ed",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "97.07999",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 6,
+        "historyHighestRank": 2,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "93.62",
+            "isChampion": true,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "66.10",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "87.71",
+            "isChampion": true,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "85.75",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "73.94",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "uniTrackId": 371690269,
+        "songId": "546836015",
+        "platformSongId": null,
+        "qyTrackId": "546836015",
+        "weeks": 3,
+        "highestRank": 4,
+        "newFlag": false,
+        "lastWeekRank": 8,
+        "uniIndex": "96.19",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000004SNykA0G4Pgv_2.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000004SNykA0G4Pgv_2.jpg",
+        "songName": "\u8fd9\u4e9b\u5e74\u5728\u5fd9\u4ec0\u4e48",
+        "trackNameShow": "\u8fd9\u4e9b\u5e74\u5728\u5fd9\u4ec0\u4e48",
+        "publishTime": null,
+        "qyTrackMid": "000ZZ1xW2BkwvG",
+        "uniSingerId": null,
+        "singerId": "16040112",
+        "singerName": "\u7530\u56ed",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.19167",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 3,
+        "historyHighestRank": 4,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "89.49",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "66.27",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "83.65",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "84.33",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "71.53",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "uniTrackId": 375091872,
+        "songId": "550237618",
+        "platformSongId": null,
+        "qyTrackId": "550237618",
+        "weeks": 2,
+        "highestRank": 4,
+        "newFlag": false,
+        "lastWeekRank": 4,
+        "uniIndex": "96.18",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000003uhg0f1o1BdC_2.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003uhg0f1o1BdC_2.jpg",
+        "songName": "\u6d88\u6563\u5bf9\u767d",
+        "trackNameShow": "\u6d88\u6563\u5bf9\u767d",
+        "publishTime": null,
+        "qyTrackMid": "003laJWh2zoypQ",
+        "uniSingerId": null,
+        "singerId": "3047107",
+        "singerName": "\u4e01\u79b9\u516e",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "96.18374",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 2,
+        "historyHighestRank": 4,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "89.76",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "67.00",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "83.07",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "79.79",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "74.03",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "uniTrackId": 372379013,
+        "songId": "547524759",
+        "platformSongId": null,
+        "qyTrackId": "547524759",
+        "weeks": 4,
+        "highestRank": 1,
+        "newFlag": false,
+        "lastWeekRank": 5,
+        "uniIndex": "95.99",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M0000040uK2z3RfUSv_1.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000040uK2z3RfUSv_1.jpg",
+        "songName": "\u4f53\u8d34",
+        "trackNameShow": "\u4f53\u8d34",
+        "publishTime": null,
+        "qyTrackMid": "001zM0qG1vOhzn",
+        "uniSingerId": null,
+        "singerId": "1113117",
+        "singerName": "\u5b8b\u4e9a\u8f69",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.98571",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 4,
+        "historyHighestRank": 1,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "81.29",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "87.51",
+            "isChampion": true,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "65.62",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "75.76",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "84.65",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "uniTrackId": 344360978,
+        "songId": "519506736",
+        "platformSongId": null,
+        "qyTrackId": "519506736",
+        "weeks": 10,
+        "highestRank": 3,
+        "newFlag": false,
+        "lastWeekRank": 7,
+        "uniIndex": "95.93",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000002G8JY706EUr4_9.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000002G8JY706EUr4_9.jpg",
+        "songName": "\u571f\u5761\u4e0a\u7684\u72d7\u5c3e\u8349",
+        "trackNameShow": "\u571f\u5761\u4e0a\u7684\u72d7\u5c3e\u8349",
+        "publishTime": null,
+        "qyTrackMid": "002iOrb52UFgiF",
+        "uniSingerId": null,
+        "singerId": "1164028",
+        "singerName": "\u5362\u6da6\u6cfd",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.93086",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 10,
+        "historyHighestRank": 3,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "92.22",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "65.70",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "84.02",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "84.66",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "62.56",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "uniTrackId": 376328539,
+        "songId": "551474279",
+        "platformSongId": null,
+        "qyTrackId": "551474279",
+        "weeks": 1,
+        "highestRank": 8,
+        "newFlag": true,
+        "lastWeekRank": 0,
+        "uniIndex": "95.92",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M000004G4ZWA180RuH_2.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M000004G4ZWA180RuH_2.jpg",
+        "songName": "\u5149\u9634\u526f\u672c",
+        "trackNameShow": "\u5149\u9634\u526f\u672c",
+        "publishTime": null,
+        "qyTrackMid": "001NwtwK1sBDWh",
+        "uniSingerId": null,
+        "singerId": "4286",
+        "singerName": "\u6797\u4fca\u6770",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.92033",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 1,
+        "historyHighestRank": 8,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "85.40",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "53.50",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "78.03",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "94.02",
+            "isChampion": true,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "81.20",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "uniTrackId": 375304257,
+        "songId": "550449998",
+        "platformSongId": null,
+        "qyTrackId": "550449998",
+        "weeks": 2,
+        "highestRank": 1,
+        "newFlag": false,
+        "lastWeekRank": 1,
+        "uniIndex": "95.77",
+        "coverImages": "https://y.qq.com/music/photo_new/T062R180x180M000003gjx3M3XSBNR.jpg",
+        "hdCoverImages": "https://y.qq.com/music/photo_new/T062R500x500M000003gjx3M3XSBNR.jpg",
+        "songName": "\u4e07\u82b1\u955c",
+        "trackNameShow": "\u4e07\u82b1\u955c",
+        "publishTime": null,
+        "qyTrackMid": "000NJrc11Qr2jD",
+        "uniSingerId": null,
+        "singerId": "1157831",
+        "singerName": "\u5f20\u771f\u6e90",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.77015",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 2,
+        "historyHighestRank": 1,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "82.06",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "84.17",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "65.45",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "73.78",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "84.41",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "uniTrackId": 371226409,
+        "songId": "546372157",
+        "platformSongId": null,
+        "qyTrackId": "546372157",
+        "weeks": 4,
+        "highestRank": 10,
+        "newFlag": false,
+        "lastWeekRank": 0,
+        "uniIndex": "95.76",
+        "coverImages": "https://y.gtimg.cn/music/photo_new/T002R180x180M0000015SOuT1dUC6X_3.jpg",
+        "hdCoverImages": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000015SOuT1dUC6X_3.jpg",
+        "songName": "\u6400\u6276",
+        "trackNameShow": "\u6400\u6276",
+        "publishTime": null,
+        "qyTrackMid": "002vWbbF48AIVa",
+        "uniSingerId": null,
+        "singerId": "7139",
+        "singerName": "\u9a6c\u5065\u6d9b",
+        "mvId": null,
+        "albumId": null,
+        "uniIndexNew": "95.76287",
+        "sameIndex": 0,
+        "trackTags": null,
+        "onChartWeeks": 4,
+        "historyHighestRank": 10,
+        "classifyIndices": [
+          {
+            "name": "\u64ad\u653e\u70ed\u5ea6",
+            "code": 1,
+            "percentage": 35,
+            "subdivisions": [
+              "\u97f3\u9891\u64ad\u653e",
+              "\u89c6\u9891\u64ad\u653e"
+            ],
+            "index": "85.65",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u4f20\u64ad\u5ea6",
+            "code": 2,
+            "percentage": 20,
+            "subdivisions": [
+              "\u5206\u4eab",
+              "K\u6b4c\u4f20\u5531",
+              "\u5fae\u535a\u8f6c\u53d1"
+            ],
+            "index": "71.61",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u559c\u597d\u5ea6",
+            "code": 3,
+            "percentage": 10,
+            "subdivisions": [
+              "\u6536\u85cf",
+              "\u4e0b\u8f7d"
+            ],
+            "index": "77.24",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u7545\u9500\u5ea6",
+            "code": 4,
+            "percentage": 15,
+            "subdivisions": [
+              "\u6570\u4e13\u9500\u91cf",
+              "\u4ef7\u503c\u6253\u699c"
+            ],
+            "index": "84.66",
+            "isChampion": false,
+            "breakRecord": false
+          },
+          {
+            "name": "\u63a8\u8350\u5ea6",
+            "code": 5,
+            "percentage": 20,
+            "subdivisions": [
+              "\u70b9\u8d5e"
+            ],
+            "index": "72.52",
+            "isChampion": false,
+            "breakRecord": false
+          }
+        ]
+      }
+    ]
+  }
+}
