@@ -167,100 +167,6 @@ class DataFetcher:
 
 
 
-class DropdownInteractor:
-    """（已弃用！！！）通过操作页面级联下拉框，遍历所有年份 and 期数"""
-
-    CLICK_WAIT = 1.0   # 点击后等待菜单刷新
-    LOAD_WAIT  = 2.0   # 选定期数后等待页面加载
-
-    def __init__(self, tab):
-        self.tab = tab
-        self.tab.change_mode("d")
-
-    def get_all_issues(self) -> List[str]:
-        """遍历级联下拉框，返回所有期数标识列表"""
-        issues = []
-        year_count = self._count_next_level([])
-        print(f"发现 {year_count} 个年份")
-
-        for yi in range(year_count):
-            period_count = self._count_next_level([yi])
-            print(f"  第 {yi + 1} 年，共 {period_count} 个期数")
-
-            for pi in range(period_count):
-                issue = self._select_and_extract_issue(yi, pi)
-                if issue:
-                    issues.append(issue)
-                    print(f"    -> {issue}")
-
-        return issues
-
-    # ── 内部辅助 ──────────────────────────────────────────────
-
-    def _open_dropdown(self) -> bool:
-        """点击 Select 触发级联菜单弹出"""
-        try:
-            if self.tab.mode != 'm':
-                self.tab.change_mode("m")
-            self.tab.ele('.ant-select-selector').click()
-            time.sleep(self.CLICK_WAIT)
-            return True
-        except Exception as e:
-            print(f"  打开下拉框失败: {e}")
-            return False
-
-    def _menu_cols(self):
-        """返回当前级联菜单中各列的 <ul> 元素列表"""
-        menu = self.tab.ele('.ant-cascader-menus')
-        return menu.eles('tag:ul') if menu else []
-
-    def _count_next_level(self, path: List[int]) -> int:
-        """
-        按 path 依次点击，统计下一级的选项数量。
-        path=[]    → 年份数量
-        path=[yi]  → 该年的期数数量
-        """
-        if not self._open_dropdown():
-            return 0
-
-        cols = self._menu_cols()
-        for depth, idx in enumerate(path):
-            if depth >= len(cols):
-                return 0
-            items = cols[depth].eles('tag:li')
-            if idx >= len(items):
-                return 0
-            items[idx].click()
-            time.sleep(self.CLICK_WAIT)
-            cols = self._menu_cols()
-
-        next_col = len(path)
-        return len(cols[next_col].eles('tag:li')) if next_col < len(cols) else 0
-
-    def _select_and_extract_issue(self, year_idx: int, period_idx: int) -> Optional[str]:
-        """选中指定年份和期数，返回期数标识字符串"""
-        if not self._open_dropdown():
-            return None
-
-        cols = self._menu_cols()
-
-        # 点击年份
-        if len(cols) < 1:
-            return None
-        cols[0].eles('tag:li')[year_idx].click()
-        time.sleep(self.CLICK_WAIT)
-
-        # 点击期数
-        cols = self._menu_cols()
-        if len(cols) < 2:
-            return None
-        cols[1].eles('tag:li')[period_idx].click()
-        time.sleep(self.LOAD_WAIT)
-
-        # TODO: 替换为从 URL 或页面元素中提取真实期数
-        return f"2025{period_idx + 1:02d}"
-
-
 # ── 工具函数 ───────────────────────────────────────────────────
 
 def save_json(data, filename="tencent_music_data.json"):
@@ -282,22 +188,6 @@ def run_fetcher(tab):
 
 
 
-def run_interactor(tab):
-    """自动化遍历：操作页面下拉框，批量采集全部历史期数"""
-    fetcher    = DataFetcher(tab)
-    interactor = DropdownInteractor(tab)
-    all_data   = {}
-
-    issues = interactor.get_all_issues()
-    print(f"\n准备获取 {len(issues)} 个期数的数据...")
-    for issue in issues:
-        songs = fetcher.get_single_issue(issue)
-        if songs:
-            all_data[issue] = songs
-    if all_data:
-        save_json(all_data)
-
-
 # ── 入口 ───────────────────────────────────────────────────────
 
 def main():
@@ -308,7 +198,6 @@ def main():
 
     try:
         run_fetcher(tab)       # 模式一：指定期数，接口拉取
-        # run_interactor(tab)  # 模式二：自动遍历，批量采集
     except Exception as e:
         import traceback
         print(f"\n程序异常: {e}")
