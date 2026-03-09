@@ -58,8 +58,24 @@ class DataFetcher:
     def get_years(self) -> List[str]:
         """获取所有年份"""
         print(">>> 正在获取年份列表...")
+        headers = {
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+            'cache-control': 'no-cache',
+            'pragma': 'no-cache',
+            'priority': 'u=0, i',
+            'sec-ch-ua': '"Not(A:Brand";v="99", "Microsoft Edge";v="133", "Chromium";v="133"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Windows"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0'
+        }
         url = "https://chart.tencentmusic.com/unichartsapi/pc/yobang/year"
-        self.tab.get(url, headers=self.headers)
+        self.tab.get(url, headers=headers)
         res = self.tab.response.json()
         
         if res.get("code") == "0":
@@ -197,7 +213,7 @@ def main():
     tab.wait(3)
 
     try:
-        run_fetcher(tab)       # 模式一：指定期数，接口拉取
+        run_fetcher(tab)
     except Exception as e:
         import traceback
         print(f"\n程序异常: {e}")
