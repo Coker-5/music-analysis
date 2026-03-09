@@ -1,0 +1,230 @@
+-- ================================================================
+-- 创建数据库
+-- ================================================================
+CREATE DATABASE IF NOT EXISTS music_chart
+  DEFAULT CHARACTER SET utf8mb4
+  DEFAULT COLLATE utf8mb4_unicode_ci;
+
+USE music_chart;
+
+-- ================================================================
+-- 【维度表1】歌手维度表
+-- ================================================================
+CREATE TABLE dim_singer (
+    singer_id     VARCHAR(20)  PRIMARY KEY              COMMENT '歌手ID（腾讯音乐 singerId 字段）',
+    singer_name   VARCHAR(100) NOT NULL                 COMMENT '歌手名',
+    created_at    DATETIME     DEFAULT CURRENT_TIMESTAMP
+) COMMENT '歌手维度表';
+
+
+-- ================================================================
+-- 【维度表2】周榜期数元数据表
+-- 数据来源：years_issue_data.json 每个条目
+-- 原始字段映射：
+--   issue        → issue
+--   month        → month
+--   startTime    → start_date
+--   endTime      → end_date
+--   title        → title
+--   publishTime  → publish_time
+-- ================================================================
+CREATE TABLE dim_week_issue (
+    issue         VARCHAR(10)  PRIMARY KEY  COMMENT '期数编号，如 202552',
+    year          SMALLINT     NOT NULL     COMMENT '年份（从 issue 前4位解析）',
+    month         TINYINT      NOT NULL     COMMENT '月份',
+    start_date    DATE         NOT NULL     COMMENT '本期开始日期',
+    end_date      DATE         NOT NULL     COMMENT '本期结束日期',
+    title         VARCHAR(100)              COMMENT '期数标题，如 第52期（12.29-01.04）',
+    publish_time  DATETIME                  COMMENT '本期发布时间'
+) COMMENT '周榜期数元数据表';
+
+
+-- ================================================================
+-- 【事实表1】历史周榜明细表（总表）
+-- 数据来源：result_data.json，结构为 {year: {issue: [song, ...]}}
+-- 原始字段映射：
+--   issue（外层key）     → issue
+--   year（外层key前4位） → year
+--   rank                 → rank
+--   lastWeekRank         → last_week_rank
+--   songId               → song_id
+--   songName             → song_name
+--   singerId             → singer_id
+--   singerName           → singer_name
+--   uniIndex             → uni_index（字符串转 DECIMAL）
+--   onChartWeeks         → on_chart_weeks
+--   highestRank          → highest_rank
+--   historyHighestRank   → history_highest
+--   newFlag              → new_flag（bool 转 0/1）
+--   coverImages          → cover_image
+-- ================================================================
+CREATE TABLE fact_weekly_chart (
+    id               BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    issue            VARCHAR(10)  NOT NULL    COMMENT '期数，关联 dim_week_issue.issue',
+    year             SMALLINT     NOT NULL    COMMENT '年份（冗余加速查询）',
+    `rank`           TINYINT      NOT NULL    COMMENT '本期排名',        -- [fix-1] 保留字，加反引号
+    last_week_rank   TINYINT                  COMMENT '上期排名，0 表示新入榜',
+    song_id          VARCHAR(20)  NOT NULL    COMMENT '歌曲ID（songId）',
+    song_name        VARCHAR(200) NOT NULL    COMMENT '歌曲名',
+    singer_id        VARCHAR(20)  NOT NULL    COMMENT '歌手ID，关联 dim_singer.singer_id',
+    singer_name      VARCHAR(100) NOT NULL    COMMENT '歌手名（冗余）',
+    uni_index        DECIMAL(6,2)             COMMENT '综合指数',
+    on_chart_weeks   SMALLINT                 COMMENT '累计上榜周数',
+    highest_rank     TINYINT                  COMMENT '本期最高排名',
+    history_highest  TINYINT                  COMMENT '历史最高排名',
+    new_flag         TINYINT      DEFAULT 0   COMMENT '是否新入榜（0/1）',    -- [fix-2] 去掉 TINYINT(1) 显示宽度
+    cover_image      VARCHAR(500)             COMMENT '封面图 URL（coverImages 字段）',
+    INDEX idx_issue     (issue),
+    INDEX idx_year      (year),
+    INDEX idx_singer_id (singer_id),
+    INDEX idx_song_id   (song_id)
+) COMMENT '历史周榜明细表';
+
+
+-- ================================================================
+-- 【指数表】周榜五维分项指数表
+-- 数据来源：result_data.json 中每首歌的 classifyIndices 数组
+-- 原始字段映射（classifyIndices 数组中每个对象）：
+--   code        → index_code（1播放热度 2传播度 3喜好度 4畅销度 5推荐度）
+--   name        → index_name
+--   index       → index_value（字符串转 DECIMAL）
+--   percentage  → percentage
+--   isChampion  → is_champion（bool 转 0/1）
+-- ================================================================
+CREATE TABLE fact_weekly_classify_index (
+    id            BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    weekly_id     BIGINT       NOT NULL    COMMENT '关联 fact_weekly_chart.id',
+    issue         VARCHAR(10)  NOT NULL    COMMENT '期数（冗余）',
+    song_id       VARCHAR(20)  NOT NULL    COMMENT '歌曲ID（冗余）',
+    index_code    TINYINT      NOT NULL    COMMENT '指数类型编码',
+    index_name    VARCHAR(20)  NOT NULL    COMMENT '指数名称',
+    index_value   DECIMAL(6,2)             COMMENT '指数值',
+    percentage    TINYINT                  COMMENT '权重占比（%）',
+    is_champion   TINYINT      DEFAULT 0   COMMENT '是否该维度冠军（0/1）',    -- [fix-2] 去掉显示宽度
+    INDEX idx_weekly_id  (weekly_id),
+    INDEX idx_song_issue (song_id, issue)
+) COMMENT '周榜五维分项指数表';
+
+
+-- ================================================================
+-- 【事实表2】日榜明细表（当日表）
+-- 数据来源：latest_data.json，每日爬虫覆盖写入
+-- 原始字段映射：
+--   issue                    → issue
+--   rank                     → rank
+--   preRank                  → pre_rank
+--   incrRank                 → incr_rank
+--   itemId                   → song_id
+--   info.trackNameShow       → song_name
+--   info.singerId            → singer_id（注意：用 info.singerId，非 info.qySingerId）
+--   info.singerName          → singer_name
+--   score                    → score（字符串转 DECIMAL）
+--   preScore                 → pre_score
+--   incrScore                → incr_score
+--   extend.playIndex         → play_index
+--   extend.payIndex          → pay_index
+--   extend.popIndex          → pop_index
+--   extend.days              → days_on_chart（字符串转 INT）
+--   extend.highRank          → high_rank（字符串转 INT）
+--   extend.highIndex         → high_index（字符串转 DECIMAL）
+--   extend.newFlag           → new_flag（bool 转 0/1）
+--   firstOnChart             → first_on_chart（0/1）
+--   trackTags                → track_tags（list 转 JSON 字符串）
+--   info.coverImages         → cover_image
+--   info.publishTime         → publish_time（字符串转 DATETIME，可能为 null）
+--   chart_date 需在入库时从当天日期 date.today() 生成
+-- ================================================================
+CREATE TABLE fact_daily_chart (
+    id               BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    chart_date       DATE         NOT NULL                  COMMENT '榜单日期（爬取当天）',
+    issue            VARCHAR(10)  NOT NULL                  COMMENT '日榜期数',
+    `rank`           TINYINT      NOT NULL                  COMMENT '今日排名',    -- [fix-1] 保留字，加反引号；[fix-3] 统一为 TINYINT
+    pre_rank         TINYINT                                COMMENT '昨日排名',    -- [fix-3] 统一为 TINYINT
+    incr_rank        SMALLINT                               COMMENT '排名变化，正数上升',
+    song_id          VARCHAR(20)  NOT NULL                  COMMENT '歌曲ID（itemId）',
+    song_name        VARCHAR(200) NOT NULL                  COMMENT '歌曲名',
+    singer_id        VARCHAR(20)  NOT NULL                  COMMENT '歌手ID',      -- [fix-4] 补 NOT NULL，与周榜一致
+    singer_name      VARCHAR(100) NOT NULL                  COMMENT '歌手名',
+    score            DECIMAL(6,2) NOT NULL                  COMMENT '今日综合得分',
+    pre_score        DECIMAL(6,2)                           COMMENT '昨日得分',
+    incr_score       DECIMAL(6,2)                           COMMENT '得分涨跌',
+    play_index       DECIMAL(6,2)                           COMMENT '播放指数',
+    pay_index        DECIMAL(6,2)                           COMMENT '畅销度指数',
+    pop_index        DECIMAL(6,2)                           COMMENT '人气指数',
+    days_on_chart    SMALLINT                               COMMENT '累计上榜天数',
+    high_rank        SMALLINT                               COMMENT '历史最高排名',
+    high_index       DECIMAL(6,2)                           COMMENT '历史最高得分',
+    new_flag         TINYINT      DEFAULT 0                 COMMENT '是否今日新入榜',       -- [fix-2] 去掉显示宽度
+    first_on_chart   TINYINT      DEFAULT 0                 COMMENT '是否首次上榜',         -- [fix-2] 去掉显示宽度
+    track_tags       JSON                                   COMMENT '标签数组 JSON',
+    cover_image      VARCHAR(500)                           COMMENT '封面图 URL',
+    publish_time     DATETIME                               COMMENT '歌曲发行时间',
+    created_at       DATETIME     DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE KEY uk_date_rank  (chart_date, `rank`),    -- [fix-1] 反引号与列定义保持一致
+    INDEX idx_chart_date     (chart_date),
+    INDEX idx_singer_date    (singer_id, chart_date),
+    INDEX idx_score          (chart_date, score)
+) COMMENT '日榜明细表（每日爬虫写入）';
+
+
+-- ================================================================
+-- 【聚合表1】歌手历年上榜统计表
+-- 由 fact_weekly_chart 聚合生成，支撑 ⑨ 历年演化3D柱状图
+-- 不需要手动写数据，由 pipeline 脚本计算后写入
+-- ================================================================
+CREATE TABLE agg_singer_yearly (
+    id              BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    singer_id       VARCHAR(20)  NOT NULL    COMMENT '歌手ID',
+    singer_name     VARCHAR(100) NOT NULL    COMMENT '歌手名',
+    year            SMALLINT     NOT NULL    COMMENT '年份',
+    chart_count     SMALLINT     DEFAULT 0   COMMENT '当年上榜总周次',
+    top3_count      SMALLINT     DEFAULT 0   COMMENT '当年进入 Top3 次数',
+    champion_count  SMALLINT     DEFAULT 0   COMMENT '当年夺冠（rank=1）次数',
+    avg_rank        DECIMAL(5,2)             COMMENT '当年平均排名',
+    avg_index       DECIMAL(6,2)             COMMENT '当年平均综合指数',
+    updated_at      DATETIME     DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    UNIQUE KEY uk_singer_year (singer_id, year),
+    INDEX idx_year (year)
+) COMMENT '歌手历年上榜统计聚合表';
+
+
+-- ================================================================
+-- 【聚合表2】歌曲留榜生命力统计表
+-- 由 fact_weekly_chart 聚合生成，支撑 ⑦ 长红歌曲排行
+-- ================================================================
+CREATE TABLE agg_song_longevity (
+    id                BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    song_id           VARCHAR(20)  NOT NULL UNIQUE COMMENT '歌曲ID',
+    song_name         VARCHAR(200) NOT NULL         COMMENT '歌曲名',
+    singer_id         VARCHAR(20)  NOT NULL         COMMENT '歌手ID',
+    singer_name       VARCHAR(100) NOT NULL         COMMENT '歌手名',
+    total_weeks       SMALLINT     DEFAULT 0        COMMENT '累计上榜总周数',
+    history_best_rank TINYINT                       COMMENT '历史最高排名',
+    first_chart_date  DATE                          COMMENT '首次上榜日期（关联期数 start_date）',
+    last_chart_date   DATE                          COMMENT '最近上榜日期',
+    champion_weeks    SMALLINT     DEFAULT 0        COMMENT '夺冠周数',
+    cover_image       VARCHAR(500)                  COMMENT '封面图 URL',
+    updated_at        DATETIME     DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    INDEX idx_total_weeks (total_weeks),    -- [fix-5] 移除 DESC，兼容 MySQL 5.7
+    INDEX idx_singer_id   (singer_id)
+) COMMENT '歌曲留榜生命力统计表';
+
+
+-- ================================================================
+-- 【聚合表3】歌手全量上榜统计表
+-- 由 fact_weekly_chart 聚合生成，支撑 ①饼图 ②词云 ④条形图
+-- ================================================================
+CREATE TABLE agg_singer_total (
+    singer_id         VARCHAR(20)  PRIMARY KEY    COMMENT '歌手ID',
+    singer_name       VARCHAR(100) NOT NULL        COMMENT '歌手名',
+    total_count       INT          DEFAULT 0       COMMENT '历史累计上榜总周次',
+    champion_count    SMALLINT     DEFAULT 0       COMMENT '历史夺冠次数',
+    top3_count        SMALLINT     DEFAULT 0       COMMENT '历史进入 Top3 次数',
+    distinct_songs    SMALLINT     DEFAULT 0       COMMENT '上榜不重复歌曲数',
+    best_rank         TINYINT                      COMMENT '历史最好排名',
+    active_years      TINYINT                      COMMENT '活跃年份数',
+    first_chart_year  SMALLINT                     COMMENT '首次上榜年份',
+    last_chart_year   SMALLINT                     COMMENT '最近上榜年份',
+    updated_at        DATETIME     DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    INDEX idx_total_count (total_count DESC)
+) COMMENT '歌手全量上榜统计聚合表';
