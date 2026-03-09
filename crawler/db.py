@@ -69,14 +69,14 @@ def insert_weekly_charts(conn, charts: List[WeeklyChart]):
 
     chart_sql = """
         INSERT INTO fact_weekly_chart (
-            issue, year, rank, last_week_rank, song_id, song_name, singer_id, singer_name,
+            issue, year, `rank`, last_week_rank, song_id, song_name, singer_id, singer_name,
             uni_index, on_chart_weeks, highest_rank, history_highest, new_flag, cover_image
         )
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     """
     exists_sql = """
         SELECT id FROM fact_weekly_chart
-        WHERE issue = %s AND rank = %s AND song_id = %s
+        WHERE issue = %s AND `rank` = %s AND song_id = %s
         LIMIT 1
     """
     index_sql = """
@@ -158,7 +158,7 @@ def upsert_daily_charts(conn, charts: List[DailyChart]):
         return
     sql = """
         INSERT INTO fact_daily_chart (
-            chart_date, issue, rank, pre_rank, incr_rank, song_id, song_name, singer_id, singer_name,
+            chart_date, issue, `rank`, pre_rank, incr_rank, song_id, song_name, singer_id, singer_name,
             score, pre_score, incr_score, play_index, pay_index, pop_index, days_on_chart, high_rank,
             high_index, new_flag, first_on_chart, track_tags, cover_image, publish_time
         )
@@ -222,9 +222,9 @@ def refresh_agg_singer_yearly(conn):
             singer_name,
             year,
             COUNT(*) AS chart_count,
-            SUM(CASE WHEN rank <= 3 THEN 1 ELSE 0 END) AS top3_count,
-            SUM(CASE WHEN rank = 1 THEN 1 ELSE 0 END) AS champion_count,
-            ROUND(AVG(rank), 2) AS avg_rank,
+            SUM(CASE WHEN `rank` <= 3 THEN 1 ELSE 0 END) AS top3_count,
+            SUM(CASE WHEN `rank` = 1 THEN 1 ELSE 0 END) AS champion_count,
+            ROUND(AVG(`rank`), 2) AS avg_rank,
             ROUND(AVG(uni_index), 2) AS avg_index
         FROM fact_weekly_chart
         GROUP BY singer_id, singer_name, year
@@ -251,10 +251,10 @@ def refresh_agg_song_longevity(conn):
             f.singer_id,
             f.singer_name,
             COUNT(*) AS total_weeks,
-            MIN(f.rank) AS history_best_rank,
+            MIN(f.`rank`) AS history_best_rank,
             MIN(i.start_date) AS first_chart_date,
             MAX(i.end_date) AS last_chart_date,
-            SUM(CASE WHEN f.rank = 1 THEN 1 ELSE 0 END) AS champion_weeks,
+            SUM(CASE WHEN f.`rank` = 1 THEN 1 ELSE 0 END) AS champion_weeks,
             MAX(f.cover_image) AS cover_image
         FROM fact_weekly_chart f
         LEFT JOIN dim_week_issue i ON f.issue = i.issue
@@ -281,10 +281,10 @@ def refresh_agg_singer_total(conn):
             singer_id,
             singer_name,
             COUNT(*) AS total_count,
-            SUM(CASE WHEN rank = 1 THEN 1 ELSE 0 END) AS champion_count,
-            SUM(CASE WHEN rank <= 3 THEN 1 ELSE 0 END) AS top3_count,
+            SUM(CASE WHEN `rank` = 1 THEN 1 ELSE 0 END) AS champion_count,
+            SUM(CASE WHEN `rank` <= 3 THEN 1 ELSE 0 END) AS top3_count,
             COUNT(DISTINCT song_id) AS distinct_songs,
-            MIN(rank) AS best_rank,
+            MIN(`rank`) AS best_rank,
             COUNT(DISTINCT year) AS active_years,
             MIN(year) AS first_chart_year,
             MAX(year) AS last_chart_year

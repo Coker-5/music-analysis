@@ -49,6 +49,30 @@ def parse_date(val: Optional[str]) -> Optional[date]:
     return dt.date() if dt else None
 
 
+def split_singer_fields(
+    singer_ids_raw: Optional[str],
+    singer_names_raw: Optional[str],
+) -> List[Singer]:
+    singer_ids = [part.strip() for part in str(singer_ids_raw or "").split(",") if part.strip()]
+    singer_names = [part.strip() for part in str(singer_names_raw or "").split(",") if part.strip()]
+
+    if not singer_names:
+        return []
+
+    singers: List[Singer] = []
+
+    # Most records contain aligned comma-separated singer ids and names.
+    if singer_ids and len(singer_ids) == len(singer_names):
+        for singer_id, singer_name in zip(singer_ids, singer_names):
+            singers.append(Singer(singer_id=singer_id, singer_name=singer_name))
+        return singers
+
+    # Fall back to names only when ids are missing or malformed.
+    for singer_name in singer_names:
+        singers.append(Singer(singer_id=singer_name, singer_name=singer_name))
+    return singers
+
+
 def parse_years_issue(data: Dict) -> List[WeekIssue]:
     issues: List[WeekIssue] = []
     for issue_items in data.values():
@@ -95,10 +119,8 @@ def parse_weekly_chart(data: Dict) -> tuple[List[Singer], List[WeeklyChart]]:
                 if not singer_id or not singer_name or not song_id or not song_name or rank is None:
                     continue
 
-                singers_map.setdefault(
-                    singer_id,
-                    Singer(singer_id=singer_id, singer_name=singer_name),
-                )
+                for singer in split_singer_fields(singer_id, singer_name):
+                    singers_map.setdefault(singer.singer_id, singer)
 
                 indices: List[WeeklyClassifyIndex] = []
                 for index_item in item.get("classifyIndices") or []:
@@ -158,11 +180,8 @@ def parse_daily_chart(data: List[Dict], chart_date: date) -> tuple[List[Singer],
         rank = to_int(item.get("rank"))
         score = to_float(item.get("score"))
 
-        if singer_id and singer_name:
-            singers_map.setdefault(
-                singer_id,
-                Singer(singer_id=singer_id, singer_name=singer_name),
-            )
+        for singer in split_singer_fields(singer_id, singer_name):
+            singers_map.setdefault(singer.singer_id, singer)
 
         if not issue or not song_id or not song_name or not singer_name or rank is None or score is None:
             continue
