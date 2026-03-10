@@ -1,0 +1,31 @@
+[
+    {
+        "role__key": "admin",
+        "menu_button__value": "menu:Search",
+        "data_range": 0
+    },
+    { "role__key": "admin", "menu_button__value": "singer:Search", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "singer:Create", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "singer:Update", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "singer:Delete", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "weekIssue:Search", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "weekIssue:Create", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "weekIssue:Update", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "weekIssue:Delete", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "weeklyChart:Search", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "weeklyChart:Create", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "weeklyChart:Update", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "weeklyChart:Delete", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "dailyChart:Search", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "dailyChart:Create", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "dailyChart:Update", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "dailyChart:Delete", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "singerStat:Search", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "singerStat:Create", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "singerStat:Update", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "singerStat:Delete", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "songLongevity:Search", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "songLongevity:Create", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "songLongevity:Update", "data_range": 3 },
+    { "role__key": "admin", "menu_button__value": "songLongevity:Delete", "data_range": 3 }
+]
