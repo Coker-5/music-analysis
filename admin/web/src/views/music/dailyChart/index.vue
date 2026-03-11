@@ -36,10 +36,19 @@ function createCrudOptions({ crudExpose }: CreateCrudOptionsProps): CreateCrudOp
         chart_date: {
           title: '榜单日期',
           type: 'date',
-          search: { show: true },
+          search: {
+            show: true,
+            component: {
+              type: 'date-picker',
+              valueFormat: 'YYYY-MM-DD'
+            }
+          },
           column: { width: 110 },
           form: {
-            rules: [{ required: true, message: '请选择日期' }]
+            rules: [{ required: true, message: '请选择日期' }],
+            component: {
+              valueFormat: 'YYYY-MM-DD'
+            }
           }
         },
         rank: {

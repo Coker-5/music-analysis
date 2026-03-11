@@ -36,7 +36,12 @@ function createCrudOptions({ crudExpose }: CreateCrudOptionsProps): CreateCrudOp
         issue: {
           title: '期数',
           type: 'number',
-          search: { show: true },
+          search: {
+            show: true,
+            component: {
+              type: 'number'
+            }
+          },
           column: { width: 80 },
           form: {
             rules: [{ required: true, message: '请输入期数' }]
