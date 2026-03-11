@@ -209,6 +209,9 @@ export function dynamicImport(dynamicViewsModules: Record<string, Function>, com
 		return dynamicViewsModules[matchKey];
 	}
 	if (matchKeys?.length > 1) {
+		console.warn(`[Router] 组件多重匹配: ${component}`);
 		return false;
 	}
+	console.warn(`[Router] 未找到组件: ${component}`);
+	return dynamicViewsModules['../views/system/error/404.vue'];
 }

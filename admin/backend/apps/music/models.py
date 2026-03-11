@@ -91,7 +91,6 @@ class AggSingerTotal(models.Model):
     total_count    = models.IntegerField(default=0, verbose_name='总上榜次数')
     champion_count = models.IntegerField(default=0, verbose_name='夺冠次数')
     top3_count     = models.IntegerField(default=0, verbose_name='Top3次数')
-    last_updated   = models.DateTimeField(auto_now=True, verbose_name='更新时间')
 
     class Meta:
         managed     = False

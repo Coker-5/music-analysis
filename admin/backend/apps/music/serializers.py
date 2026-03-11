@@ -10,14 +10,14 @@ class DimSingerSerializer(CustomModelSerializer):
     class Meta:
         model  = DimSinger
         fields = '__all__'
-        read_only_fields = ['singer_id', 'created_at']
+        read_only_fields = ['created_at']
 
 
 class DimWeekIssueSerializer(CustomModelSerializer):
     class Meta:
         model  = DimWeekIssue
         fields = '__all__'
-        read_only_fields = ['issue']
+        read_only_fields = []
 
 
 class FactWeeklyChartSerializer(CustomModelSerializer):
@@ -38,11 +38,11 @@ class AggSingerTotalSerializer(CustomModelSerializer):
     class Meta:
         model  = AggSingerTotal
         fields = '__all__'
-        read_only_fields = ['singer_id']
+        read_only_fields = []
 
 
 class AggSongLongevitySerializer(CustomModelSerializer):
     class Meta:
         model  = AggSongLongevity
         fields = '__all__'
-        read_only_fields = ['song_id']
+        read_only_fields = []

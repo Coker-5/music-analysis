@@ -28,7 +28,7 @@ class DimWeekIssueViewSet(CustomModelViewSet):
     search_fields    = ['title', 'month']
     ordering_fields  = ['-issue']
     permission_classes = [AllowAny]
-    extra_filter_class = [CoreModelFilterBankend]
+    extra_filter_class = []
 
 
 class FactWeeklyChartViewSet(CustomModelViewSet):
@@ -38,7 +38,7 @@ class FactWeeklyChartViewSet(CustomModelViewSet):
     filterset_fields = ['issue', 'rank', 'singer_id', 'new_flag']
     ordering_fields  = ['-issue', 'rank']
     permission_classes = [AllowAny]
-    extra_filter_class = [CoreModelFilterBankend]
+    extra_filter_class = []
 
 
 class FactDailyChartViewSet(CustomModelViewSet):
@@ -48,7 +48,7 @@ class FactDailyChartViewSet(CustomModelViewSet):
     filterset_fields = ['chart_date', 'rank', 'new_flag']
     ordering_fields  = ['-chart_date', 'rank']
     permission_classes = [AllowAny]
-    extra_filter_class = [CoreModelFilterBankend]
+    extra_filter_class = []
 
 
 class AggSingerTotalViewSet(CustomModelViewSet):
@@ -57,7 +57,7 @@ class AggSingerTotalViewSet(CustomModelViewSet):
     search_fields    = ['singer_name']
     ordering_fields  = ['-total_count']
     permission_classes = [AllowAny]
-    extra_filter_class = [CoreModelFilterBankend]
+    extra_filter_class = []
 
 
 class AggSongLongevityViewSet(CustomModelViewSet):
@@ -66,4 +66,4 @@ class AggSongLongevityViewSet(CustomModelViewSet):
     search_fields    = ['song_name', 'singer_name']
     ordering_fields  = ['-total_weeks']
     permission_classes = [AllowAny]
-    extra_filter_class = [CoreModelFilterBankend]
+    extra_filter_class = []
