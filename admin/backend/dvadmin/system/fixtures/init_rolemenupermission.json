@@ -1,0 +1,47 @@
+[
+    {
+        "role__key": "admin",
+        "menu__web_path": "/system",
+        "menu__component_name": ""
+    },
+    {
+        "role__key": "admin",
+        "menu__web_path": "/menu",
+        "menu__component_name": "menu"
+    },
+    {
+        "role__key": "admin",
+        "menu__web_path": "/music",
+        "menu__component_name": ""
+    },
+    {
+        "role__key": "admin",
+        "menu__web_path": "/singer",
+        "menu__component_name": "singer"
+    },
+    {
+        "role__key": "admin",
+        "menu__web_path": "/weekIssue",
+        "menu__component_name": "weekIssue"
+    },
+    {
+        "role__key": "admin",
+        "menu__web_path": "/weeklyChart",
+        "menu__component_name": "weeklyChart"
+    },
+    {
+        "role__key": "admin",
+        "menu__web_path": "/dailyChart",
+        "menu__component_name": "dailyChart"
+    },
+    {
+        "role__key": "admin",
+        "menu__web_path": "/singerStat",
+        "menu__component_name": "singerStat"
+    },
+    {
+        "role__key": "admin",
+        "menu__web_path": "/songLongevity",
+        "menu__component_name": "songLongevity"
+    }
+]

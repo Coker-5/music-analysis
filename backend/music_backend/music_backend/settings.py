@@ -84,8 +84,8 @@ DATABASES = {
     'default': {
         'ENGINE':   'django.db.backends.mysql',
         'NAME':     'music_chart',
-        'USER':     'your_account',  # 请修改为你的数据库账号
-        'PASSWORD': 'your_password',  # 请修改为你的数据库密码
+        'USER':     'root',
+        'PASSWORD': '123456',
         'HOST':     'localhost',
         'PORT':     '3306',
         'OPTIONS':  {
