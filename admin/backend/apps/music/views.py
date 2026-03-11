@@ -35,7 +35,7 @@ class FactWeeklyChartViewSet(CustomModelViewSet):
     queryset         = FactWeeklyChart.objects.all()
     serializer_class = FactWeeklyChartSerializer
     search_fields    = ['song_name', 'singer_name']
-    filterset_fields = ['issue', 'rank', 'singer_id', 'new_flag']
+    filterset_fields = ['issue', 'rank', 'singer_id', 'new_flag', 'song_name', 'singer_name']
     ordering_fields  = ['-issue', 'rank']
     permission_classes = [AllowAny]
     extra_filter_class = []
@@ -45,7 +45,7 @@ class FactDailyChartViewSet(CustomModelViewSet):
     queryset         = FactDailyChart.objects.all()
     serializer_class = FactDailyChartSerializer
     search_fields    = ['song_name', 'singer_name']
-    filterset_fields = ['chart_date', 'rank', 'new_flag']
+    filterset_fields = ['chart_date', 'rank', 'new_flag', 'song_name', 'singer_name']
     ordering_fields  = ['-chart_date', 'rank']
     permission_classes = [AllowAny]
     extra_filter_class = []

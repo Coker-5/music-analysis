@@ -40,14 +40,14 @@ function createCrudOptions({ crudExpose }: CreateCrudOptionsProps): CreateCrudOp
             show: true,
             component: {
               type: 'date-picker',
-              valueFormat: 'YYYY-MM-DD'
+              valueFormat: 'yyyy-MM-dd'
             }
           },
           column: { width: 110 },
           form: {
             rules: [{ required: true, message: '请选择日期' }],
             component: {
-              valueFormat: 'YYYY-MM-DD'
+              valueFormat: 'yyyy-MM-dd'
             }
           }
         },
