@@ -15,8 +15,10 @@
 
 | 层级 | 技术 | 版本 |
 |------|------|------|
-| 前端 | Vue 2 + ECharts 4 + Highcharts 8 | ^2.6.11 |
-| 后端 | Django + MySQL | 4.2.20 |
+| 大屏前端 | Vue 2 + ECharts 4 + Highcharts 8 | ^2.6.11 |
+| 管理后台前端 | Vue 3 + Fast-CRUD + Element Plus | ^3.3.4 |
+| 大屏后端 | Django + MySQL | 4.2.20 |
+| 管理后台后端 | Django + Django REST Framework | 4.2.20 |
 | 爬虫 | Python + DrissionPage + APScheduler | 3.10+ |
 | 数据库 | MySQL | 8.0+ |
 
@@ -26,14 +28,32 @@
 
 ```
 music-analysis/
-├── 📁 frontend/                    # Vue 前端项目
+├── 📁 frontend/                    # Vue 2 大屏前端项目
 │   ├── src/
 │   │   ├── views/                  # 页面组件
 │   │   ├── components/             # 图表组件
 │   │   └── api/                    # API 请求封装
 │   └── public/
 │
-├── 📁 backend/                     # Django 后端项目
+├── 📁 admin/                       # Vue 3 管理后台项目
+│   ├── web/                        # 前端项目
+│   │   ├── src/views/music/        # 音乐管理模块
+│   │   │   ├── dailyChart/         # 日榜数据管理
+│   │   │   ├── weeklyChart/        # 周榜数据管理
+│   │   │   ├── singer/             # 歌手信息管理
+│   │   │   ├── singerStat/         # 歌手统计管理
+│   │   │   ├── songLongevity/      # 歌曲留榜时长管理
+│   │   │   └── weekIssue/          # 周度期数管理
+│   │   └── src/router/             # 路由配置
+│   └── backend/                    # Django 后端项目
+│       ├── apps/music/             # 音乐应用
+│       │   ├── models.py           # 数据模型
+│       │   ├── views.py            # API 视图
+│       │   ├── serializers.py      # 序列化器
+│       │   └── urls.py             # 路由配置
+│       └── dvadmin/                # 基础框架
+│
+├── 📁 backend/                     # Django 大屏后端项目
 │   └── music_backend/
 │       ├── datashow/               # 数据展示应用
 │       │   ├── db_query.py         # SQL 查询封装
@@ -99,7 +119,7 @@ CREATE DATABASE music_chart DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicod
 # 复制其中的 SQL 语句在 MySQL 中执行
 ```
 
-### 3. 后端启动
+### 3. 大屏后端启动
 
 ```bash
 cd backend/music_backend
@@ -119,7 +139,7 @@ python manage.py runserver 0.0.0.0:8000
 
 服务启动后访问：http://localhost:8000/music/head/ 测试接口
 
-### 4. 前端启动
+### 4. 大屏前端启动
 
 ```bash
 cd frontend
@@ -132,6 +152,45 @@ npm run serve
 ```
 
 访问 http://localhost:8080 查看大屏
+
+### 5. 管理后台启动
+
+#### 管理后台后端
+
+```bash
+cd admin/backend
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 修改数据库配置
+# 编辑 application/settings.py，修改 DATABASES 配置
+
+# 执行迁移
+python manage.py migrate
+
+# 初始化数据
+python manage.py init
+
+# 启动服务
+python manage.py runserver 0.0.0.0:8001
+```
+
+#### 管理后台前端
+
+```bash
+cd admin/web
+
+# 安装依赖
+npm install
+
+# 启动开发服务器
+npm run dev
+```
+
+访问 http://localhost:8888 进入管理后台登录页面
+- 默认账号：`admin`
+- 默认密码：`admin123456`
 
 ### 5. 爬虫初始化（历史数据导入）
 
@@ -448,6 +507,13 @@ SHOW VARIABLES LIKE 'character_set%';
 ---
 
 ## 📝 更新日志
+
+### v1.1.0 (2026-03-11)
+
+- ✅ 新增管理后台模块（Vue 3 + Fast-CRUD）
+- ✅ 修复音乐管理模块 Fast-CRUD 配置问题
+- ✅ 支持日榜数据、周榜数据、歌手信息、歌手统计、歌曲留榜时长、周度期数管理
+- ✅ 实现数据增删改查和搜索功能
 
 ### v1.0.0 (2026-03-09)
 
